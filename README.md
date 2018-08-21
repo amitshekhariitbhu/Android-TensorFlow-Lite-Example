@@ -9,7 +9,7 @@
 * This is an example project for integrating [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite/) into Android application
 * This project include an example for object detection for an image taken from camera using TensorFlow Lite library.
 
-# [Read this article. It describes everything about TensorFlow Lite for Android.](https://www.letslearnai.com/2018/03/17/android-tensorflow-lite-machine-learning-example.html)
+# [Read this article. It describes everything about TensorFlow Lite for Android.](https://letslearnai.com/2018/03/17/android-tensorflow-lite-machine-learning-example.html)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/keyboard_example.png" width="250">
