@@ -23,15 +23,21 @@ public interface Classifier {
         private final String title;
 
         /**
+         * Whether or not the model features quantized or float weights.
+         */
+        private final boolean quant;
+
+        /**
          * A sortable score for how good the recognition is relative to others. Higher should be better.
          */
         private final Float confidence;
 
         public Recognition(
-                final String id, final String title, final Float confidence) {
+                final String id, final String title, final Float confidence, final boolean quant) {
             this.id = id;
             this.title = title;
             this.confidence = confidence;
+            this.quant = quant;
         }
 
         public String getId() {

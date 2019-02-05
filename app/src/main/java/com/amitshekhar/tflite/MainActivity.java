@@ -23,6 +23,7 @@ import java.util.concurrent.Executors;
 public class MainActivity extends AppCompatActivity {
 
     private static final String MODEL_PATH = "mobilenet_quant_v1_224.tflite";
+    private static final boolean QUANT = true;
     private static final String LABEL_PATH = "labels.txt";
     private static final int INPUT_SIZE = 224;
 
@@ -127,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
                             getAssets(),
                             MODEL_PATH,
                             LABEL_PATH,
-                            INPUT_SIZE);
+                            INPUT_SIZE,
+                            QUANT);
                     makeButtonVisible();
                 } catch (final Exception e) {
                     throw new RuntimeException("Error initializing TensorFlow!", e);
