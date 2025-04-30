@@ -4,7 +4,7 @@
 * This is an example project for integrating TensorFlow Lite into Android application
 * This project include an example for object detection for an image taken from camera using TensorFlow Lite library.
 
-## [Outcome School Blog](https://outcomeschool.com/blog) - High-quality content to learn Android concepts.
+## Watch video on Epoch, Batch, Batch Size, Iteration: [Epoch, Batch, Batch Size, Iteration](https://www.youtube.com/watch?v=NFLlXE-6vno)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amitshekhariitbhu/Android-TensorFlow-Lite-Example/master/assets/keyboard_example.png" width="250">
